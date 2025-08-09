@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Zipin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="zipin-logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./pnumber.css">
+   
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="logo"><img src="zipin-logo.jpeg" alt=""></div> -->
+
+        <h1>Verify Mobile Number</h1>
+
+        <form action="" id="form">
+
+            <div class="line"></div>
+
+            <label for="name">Enter the Mobile number below</label><br>
+            <input type="tel" placeholder="Contact number" id="phone"><br>
+            
+            <p id="msg"></p>
+    
+<div class="next" id="next">Send SMS</div>
+        
+    
+
+            <div class="account">We will send a verification code to this number</div>
+
+
+        </form>
+
+        <!-- <p class="term">This site protected by reCAPTCHA and the google <br> Privacy Policy
+        and Term of Service apply.
+        </p> -->
+<script>
+    const next=document.getElementById("next");
+next.addEventListener("click",()=>{
+    window.location.href="create-account.html"
+})
+</script>
+
+    </div>
+</body>
+</html>
